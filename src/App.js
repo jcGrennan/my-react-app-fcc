@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import { ReactComponent as Logo } from "./logo.svg"
+import Posts from "./components/Posts"
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Logo style = {{height: 200}} />
         <h1>React Posts Sharer</h1>
       </header>
+      <Posts />
     </div>
   );
 }
